@@ -1,26 +1,3 @@
-14/03/17
+# Instagram Clone 
 
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+As part of learning Ruby on Rails and the MVC at CFA, I have attempted to create Instagram. It has the ability to create posts with a picture, and the key gems used include socialization for social features (liking, following), and paperclip for image upload. The feed is also formatted to look similar to instagram.

@@ -9,6 +9,22 @@
   </head>
 
   <body>
+    <nav>
+  <div class="nav-wrapper">
+    <a href="" class="brand-logo ">Instabizz</a>
+    <a href="#" data-activates="mobile-demo" class="button-collapse "><i class="material-icons">menu</i></a>
+    <ul class="right hide-on-med-and-down">
+      <li class=""><%= link_to 'New Post', new_post_path %></li>
+      <li class=""><a href="collapsible.html">Login</a></li>
+      <li class=""><a href="mobile.html">Register</a></li>
+    </ul>
+    <ul class="side-nav" id="mobile-demo">
+      <li class=""><%= link_to 'New Post', new_post_path %></li>
+      <li class=""><a href="collapsible.html">Login</a></li>
+      <li class=""><a href="mobile.html">Register</a></li>
+    </ul>
+  </div>
+</nav>
     <%= yield %>
   </body>
 </html>
